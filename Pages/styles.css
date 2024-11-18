@@ -1,0 +1,46 @@
+*{
+    offset: 0px;
+    margin: 0px;
+}
+#titleBar{
+    align-content: first baseline;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+li{
+    list-style: none;
+}
+
+#titleR{
+    background-color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: inline-end;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    border-bottom-left-radius: 35px;
+    padding: 17px 30px 17px 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#titleButton{
+    list-style-position: outside;
+    padding: auto;
+}
+
+#logo{
+    position: absolute;
+    float: left;
+    margin-left: 30px;
+    height: 200px;
+    margin-right: 25%;
+    z-index: 2;
+}
